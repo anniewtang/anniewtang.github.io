@@ -35,10 +35,6 @@ h1 {
     height: auto;
 }
 
-#about {
-    background-color: lightgrey;
-}
-
 #about-wrapper {
     position: absolute;
     bottom: 15vh;
@@ -52,42 +48,74 @@ h1 {
 }
 
 #projects {
-    background-color: grey;
-    /* height: 150vh; */
+    background-color: #4b4f5a;
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
 }
 
-#projects-wrapper {
-    position: absolute;
-    top: 15vh;
-    display: flex;
-    /* border: 1px solid red; */
-    /* height: 85vh; */
+#projects-title {
+    color: white;
 }
 
-#projects-content-box {
-    /* height: 75vh; */
-    width: 45vw;
+.flexbox-container {
+    margin-top: 4vh;
+    width: 39.5vw;
+
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-%;box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .projects-content {
-    /* position: absolute; */
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 40%;
-    width: 40%;
-    align-items: flex-start;
-    align-content: space-between;
-    flex: 1 1 auto;
-    background-color: blue;
+    display: inline-block;
+    width: 210px;
+    height: 200px;
+    margin-bottom: 10%;
+    border-radius: 5%;
+
+    flex: 0 1 auto;
 }
 
 #red {
-    background-color:red;
+    background-color:lightgrey;
 }
 #green {
-    background-color: green;
+    background-color: darkgrey;
 }
 #blue {
-    background-color: blue;
+    background-color: white;
+}
+
+#teaching {
+    background-color: #eeeeef;
+    display: flex;
+    align-items: center;
+}
+
+#teaching-wrapper {
+    border: 1px solid red;
+}
+
+.teaching-content {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: table;
+}
+
+table {
+    width: 100%;
+}
+td {
+    width: 50%;
+    /* border: 1px solid black; */
+     border-collapse: separate;
+    nowrap: nowrap;
 }
