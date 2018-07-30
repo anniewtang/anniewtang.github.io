@@ -80,7 +80,6 @@ h1 {
     height: 200px;
     margin-bottom: 10%;
     border-radius: 5%;
-
     flex: 0 1 auto;
 }
 
@@ -100,22 +99,44 @@ h1 {
     align-items: center;
 }
 
-#teaching-wrapper {
-    border: 1px solid red;
+.centered-flexbox {
+    margin-top: 0;
+    width: 100%;
+    -webkit-flex-flow: row nowrap;
+    justify-content:flex-start;
 }
 
-.teaching-content {
+.flexbox-content {
     font-size: 1.2em;
     font-weight: bold;
-    display: table;
+    height: auto;
+    flex: 0 1 auto;
 }
 
-table {
-    width: 100%;
+.left {
+    display: inline-block;
+    margin-right: 3%;
 }
-td {
-    width: 50%;
-    /* border: 1px solid black; */
-     border-collapse: separate;
-    nowrap: nowrap;
+
+.right {
+    display: inline-block;
+    width: 75%;
+}
+
+#teaching-semester {
+    width: auto;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+}
+
+#contact-icon {
+    width: 1.5%;
+}
+
+.icon {
+    line-height: 1.8em;
+    list-style: image inside url('assets/behance.svg');
 }
