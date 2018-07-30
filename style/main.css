@@ -130,16 +130,18 @@ h1 {
     align-items: center;
 }
 
-.row {}
-
-.icons-flexbox {
-    margin-right: 2%;
+.contacts-flexbox {
     align-self: stretch;
     display: flex;
-    /* border: 1px solid red; */
-    -webkit-flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
+
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.icons-container {
+    margin-right: 2%;
 }
 
 img.icon {
@@ -148,6 +150,6 @@ img.icon {
 
 .contact-links {
     font-size: 1.25em;
-    line-height: 2.5em;
+    /* line-height: 2.5em; */
     /* border: 1px solid red; */
 }
