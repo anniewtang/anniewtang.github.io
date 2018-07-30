@@ -8,6 +8,7 @@ body {
 a {
     color: #3988e2;
     text-decoration: none;
+    width: fit-content;
     border-bottom: 1.4px solid #3988e2;
     /* border-bottom-color: blue; */
 }
@@ -38,8 +39,6 @@ h1 {
 #about-wrapper {
     position: absolute;
     bottom: 15vh;
-    /* margin-top: 58vh; */
-    /* border: 1px solid red; */
 }
 
 .content {
@@ -103,7 +102,7 @@ h1 {
     -webkit-flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: auto;
 }
 
@@ -130,6 +129,10 @@ h1 {
     align-items: center;
 }
 
+#contact-title {
+    /* letter-spacing: 0.05em; */
+}
+
 .contacts-flexbox {
     align-self: stretch;
     display: flex;
@@ -137,19 +140,22 @@ h1 {
     flex-flow: column wrap;
     -webkit-flex-flow: column wrap;
     justify-content: space-evenly;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .icons-container {
-    margin-right: 2%;
+    margin-right: 15px;
 }
 
 img.icon {
-    width: 30px;
+    margin-top: 25%;
+    width: 25px;
 }
 
 .contact-links {
-    font-size: 1.25em;
-    /* line-height: 2.5em; */
+    /* font-size: 1.25em; */
+    line-height: 2.5em;
+    text-align: right;
+    text-align: left;
     /* border: 1px solid red; */
 }
