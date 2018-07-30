@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 0.5%;
 }
 
-.container {
+.page {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -101,12 +101,14 @@ h1 {
     margin-top: 0;
     width: 100%;
     -webkit-flex-flow: row nowrap;
-    justify-content:flex-start;
+    justify-content: flex-start;
+    align-items: center;
     border: 1px solid green;
+    height: auto;
 }
 
 .flexbox-content {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     height: auto;
     flex: 0 1 auto;
@@ -128,19 +130,24 @@ h1 {
     align-items: center;
 }
 
-.contact-icons {
+.row {}
+
+.icons-flexbox {
     margin-right: 2%;
-    height: 150%;
-    /* align-items: flex-end; */
-    border: 1px solid red;
+    align-self: stretch;
+    display: flex;
+    /* border: 1px solid red; */
+    -webkit-flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 img.icon {
-    width: 20px;
+    width: 30px;
 }
 
 .contact-links {
     font-size: 1.25em;
     line-height: 2.5em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
