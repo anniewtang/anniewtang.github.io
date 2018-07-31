@@ -8,9 +8,7 @@ body {
 a {
     color: #3988e2;
     text-decoration: none;
-    width: fit-content;
     border-bottom: 1.4px solid #3988e2;
-    /* border-bottom-color: blue; */
 }
 
 h1 {
@@ -28,21 +26,60 @@ h1 {
 }
 
 .wrapper {
-    width: 85vw;
+    width: 65vw;
     margin-left: 15vw;
 }
 
-nav {
+.nav-flexbox {
     position: fixed;
     z-index: 1;
-    margin-right: -10px;
-    ul {
-        list-style-type: none;
-        border: 1px solid red;
-    }
+    top: 0;
+    right: 0;
+    padding-top: 2.5%;
+    padding-right: 5%;
+
+    display: -webkit-box;
+    display: -moz-%;box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+.nav {
+    margin-right: 13%;
+}
 
+.nav a {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: none;
+
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #5c5d69;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+}
+
+.nav a:hover {
+    color: #5fa3f1;
+}
+
+.nav a:active {
+    color: #3988e2;
+}
+
+.cancel-icon {
+    width: 10px;
+    padding-top: 3px;
+}
 
 .title {
     height: auto;
@@ -152,7 +189,6 @@ nav {
     flex-flow: column wrap;
     -webkit-flex-flow: column wrap;
     justify-content: space-evenly;
-    /* border: 1px solid red; */
 }
 
 .icons-container {
@@ -165,9 +201,9 @@ img.icon {
 }
 
 .contact-links {
-    /* font-size: 1.25em; */
     line-height: 2.5em;
-    text-align: right;
-    text-align: left;
-    /* border: 1px solid red; */
+}
+
+.contact-links a {
+    width: fit-content;
 }
