@@ -89,17 +89,18 @@ h1 {
 
 #about-wrapper {
     position: absolute;
-    bottom: 15vh;
+    bottom: 20vh;
 }
 
 .content {
     font-size: 1.2em;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 #projects {
     background-color: #4b4f5a;
     height: auto;
+    min-height: 100vh;
     padding-top: 15vh;
     padding-bottom: 2vh;
 }
@@ -122,6 +123,10 @@ h1 {
     justify-content: space-between;
 }
 
+.projects-flexbox {
+    width: 500px;
+}
+
 .projects-content {
     display: inline-block;
     width: 210px;
@@ -142,7 +147,7 @@ h1 {
 }
 
 #teaching {
-    background-color: #eeeeef;
+    background-color: #f8f8f9;
     display: flex;
     align-items: center;
 }
@@ -159,7 +164,7 @@ h1 {
 
 .flexbox-content {
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 600;
     height: auto;
     flex: 0 1 auto;
 }
