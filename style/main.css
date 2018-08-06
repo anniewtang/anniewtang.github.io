@@ -17,7 +17,8 @@ a {
 h1 {
     color: #444343;
     /* font-family: 'Lato', sans-serif; */
-    font-weight: bold;
+    font-family: 'Karla Bold', sans-serif;
+    /* font-weight: bolder; */
     font-size: 5em;
     margin-bottom: 0.5%;
 }
@@ -110,6 +111,10 @@ h1 {
     bottom: 20vh;
 }
 
+#about-title {
+    font-size: 4.8em;
+}
+
 .content {
     font-size: 1.2em;
     font-weight: 500;
@@ -119,7 +124,7 @@ h1 {
     height: auto;
     min-height: 100vh;
     padding-top: 15vh;
-    padding-bottom: 2vh;
+    padding-bottom: 18vh;
     overflow: scroll;
 }
 
@@ -143,11 +148,7 @@ h1 {
     position: relative;
 }
 
-.projects-flexbox {
-    margin-bottom: 15vh;
-}
-
-.projects-flexbox a {
+#projects a {
     border-bottom: none;
 }
 
