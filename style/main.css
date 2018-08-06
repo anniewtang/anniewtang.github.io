@@ -16,9 +16,7 @@ a {
 
 h1 {
     color: #444343;
-    /* font-family: 'Lato', sans-serif; */
     font-family: 'Karla Bold', sans-serif;
-    /* font-weight: bolder; */
     font-size: 5em;
     margin-bottom: 0.5%;
 }
@@ -100,6 +98,7 @@ h1 {
 
 .title {
     height: auto;
+
 }
 
 #about {
@@ -111,8 +110,9 @@ h1 {
     bottom: 20vh;
 }
 
-#about-title {
-    font-size: 4.8em;
+#about-wrapper > .title {
+    font-size: 4.5em;
+    letter-spacing: normal;
 }
 
 .content {
@@ -179,7 +179,6 @@ h1 {
     background-color: #ffffff; /* white */
 }
 
-
 .projects-content:hover .overlay {
     opacity: 0.95;
 }
@@ -235,48 +234,86 @@ h1 {
     font-family: "Open Sans";
 }
 
-.left {
+.semester {
     display: inline-block;
     width: fit-content;
     margin-right: 3%;
 
 }
 
-.right {
+.position {
     display: inline-block;
 }
 
 #contact {
+    position: relative;
+    height: 31vh;
     display: flex;
     align-items: center;
 }
 
-#contact-title {
-    /* letter-spacing: 0.05em; */
+#contacts-content {
+    margin-left: 6vw;
+    margin-top: 5.5vw;
+
+    /* border: 1px solid red; */
+}
+
+.contacts-flexbox > .flexbox-container {
+    width: 55vw;
+}
+
+.left {
+    display: inline-block;
+}
+
+.middle {
+    display: inline-block;
+}
+
+.right {
+    display: inline-block;
+}
+
+.contacts-title {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.05em;
+    letter-spacing: 0.25pt;
+    text-transform: lowercase;
+}
+
+.contacts-subtitle {
+    font-size: 0.85em;
+    color: #706f6f;
+}
+
+.contacts-subtitle a {
+    width: fit-content;
+    color: #706f6f;
+    border-bottom: none;
 }
 
 .contacts-flexbox {
-    align-self: stretch;
+    width: 100vw;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: flex-start;
 
-    flex-flow: column wrap;
-    -webkit-flex-flow: column wrap;
-    justify-content: space-evenly;
+    position: relative;
 }
 
-.icons-container {
-    margin-right: 15px;
-}
+#copyright {
+    display: inline-block;
+    font-family: "Karla", sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
 
-img.icon {
-    margin-top: 25%;
-    width: 25px;
-}
-
-.contact-links {
-    line-height: 2.5em;
-}
-
-.contact-links a {
-    width: fit-content;
+    align-self: flex-end;
+    position: absolute;
+    right: 6vw;
 }
