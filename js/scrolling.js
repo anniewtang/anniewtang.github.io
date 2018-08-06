@@ -1,3 +1,6 @@
+// Credit for following Javascript goes to Heather Migliorisi:
+// https://css-tricks.com/author/heathermig/
+
 $(function() {
   // Select all links with hashes
   $('a[href*="#"]')
