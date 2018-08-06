@@ -19,27 +19,27 @@
     <link href="https://fonts.googleapis.com/css?family=Karla:300,400, 500" rel="stylesheet">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="hamburger.css">
     <link href="img/favi.png" rel="icon" type="image/x-icon"/>
 </head>
 <body>
-    <div class="menu">
-         <a href="">MENU</a>
-    </div>
-    <div class="nav-flexbox hidden">
-        <div class="nav">
-            <a href="#about">about</a>
-            <a href="#projects">projects</a>
-            <a href="#teaching">teaching</a>
-            <a href="assets/resume.pdf" target="_blank">resume</a>
-            <a href="#contact">contact</a>
-        </div>
-        <div class="cancel">
-            <img class="cancel-icon" src="img/cancel.svg">
-        </div>
-    </div>
-
     <!-- ABOUT PAGE -->
     <div id="about" class="page">
+        <label>
+          <input type='checkbox'>
+          <span class='menu'>
+            <span class='hamburger'></span>
+          </span>
+          <div class="nav-flexbox">
+              <div class="nav">
+                  <a class="active" href="#about">about</a>
+                  <a href="#projects">projects</a>
+                  <a href="#teaching">teaching</a>
+                  <a href="assets/resume.pdf" target="_blank">resume</a>
+                  <a href="#contact">contact</a>
+              </div>
+          </div>
+        </label>
         <div class="wrapper">
             <h1 class="title">hello, i'm annie —</h1>
             <p class="content">
@@ -52,6 +52,21 @@
 
     <!-- PROJECTS PAGE -->
     <div id="projects" class="page">
+        <label class=>
+          <input type='checkbox'>
+          <span class='menu'>
+            <span class='hamburger'></span>
+          </span>
+          <div class="nav-flexbox">
+              <div class="nav">
+                  <a href="#about">about</a>
+                  <a class="active-link" href="#projects">projects</a>
+                  <a href="#teaching">teaching</a>
+                  <a href="assets/resume.pdf" target="_blank">resume</a>
+                  <a href="#contact">contact</a>
+              </div>
+          </div>
+        </label>
         <div class="wrapper">
             <h1 id="projects-title" class="title">projects.</h1>
             <div class="flexbox-container">
@@ -149,6 +164,21 @@
 
     <!-- TEACHING PAGE -->
     <div id="teaching" class="page">
+        <label>
+          <input type='checkbox'>
+          <span class='menu'>
+            <span class='hamburger'></span>
+          </span>
+          <div class="nav-flexbox">
+              <div class="nav">
+                  <a href="#about">about</a>
+                  <a href="#projects">projects</a>
+                  <a class="active" href="#teaching">teaching</a>
+                  <a href="assets/resume.pdf" target="_blank">resume</a>
+                  <a href="#contact">contact</a>
+              </div>
+          </div>
+        </label>
         <div id="teaching-wrapper" class="wrapper">
             <h1 id="teaching-title" class="title">cs education.</h1>
             <div class="centered-flexbox flexbox-container">

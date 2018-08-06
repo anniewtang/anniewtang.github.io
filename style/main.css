@@ -5,7 +5,7 @@ body {
     font-size: 83%;
     line-height: normal;
 
-    /* overflow-y: hidden; */
+    overflow-x: hidden;
 }
 
 a {
@@ -31,19 +31,6 @@ h1 {
 .wrapper {
     width: 65vw;
     margin-left: 15vw;
-}
-
-.menu {
-    color: #5c5d69;
-    border-bottom: 1.4px solid #5c5d69;
-    width: fit-content;
-
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    padding-top: 2.5%;
-    margin-right: 3.5%;
 }
 
 .nav-flexbox {
@@ -91,9 +78,9 @@ h1 {
     color: #3988e2;
 }
 
-.cancel-icon {
-    width: 10px;
-    padding-top: 3px;
+.active {
+    color: #3988e2;
+    border-bottom: 1.4px solid #3988e2;
 }
 
 .title {
@@ -124,7 +111,7 @@ h1 {
     min-height: 100vh;
     padding-top: 15vh;
     padding-bottom: 18vh;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 #projects > .wrapper {
