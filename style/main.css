@@ -32,11 +32,6 @@ h1 {
     margin-left: 15vw;
 }
 
-.invert {
-    /* background-color: #f9f9f9; */
-    /* color: white; */
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -105,7 +100,7 @@ h1 {
     background-color: #f8f8f9;
 }
 
-#about-wrapper {
+#about > .wrapper {
     position: absolute;
     bottom: 20vh;
 }
@@ -128,7 +123,7 @@ h1 {
     overflow: scroll;
 }
 
-.projects-wrapper {
+#projects > .wrapper {
     margin-left: 10vw;
 }
 
@@ -255,8 +250,6 @@ h1 {
 #contacts-content {
     margin-left: 6vw;
     margin-top: 5.5vw;
-
-    /* border: 1px solid red; */
 }
 
 .contacts-flexbox > .flexbox-container {
