@@ -75,6 +75,13 @@ label input:checked + .menu + .nav-flexbox {
   opacity: 1;
 }
 
+.menu + .nav-flexbox .active {
+    color: #3988e2;
+    border-bottom: 1.4px solid #3988e2;
+    width: fit-content;
+    float: right;
+}
+
 label .nav-flexbox {
   z-index: 200;
   position: absolute;

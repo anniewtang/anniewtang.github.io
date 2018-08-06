@@ -78,11 +78,6 @@ h1 {
     color: #3988e2;
 }
 
-.active {
-    color: #3988e2;
-    border-bottom: 1.4px solid #3988e2;
-}
-
 .title {
     height: auto;
 }
@@ -134,7 +129,7 @@ h1 {
     position: relative;
 }
 
-#projects a {
+#projects .wrapper a {
     border-bottom: none;
 }
 
