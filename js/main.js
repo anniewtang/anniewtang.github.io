@@ -1,3 +1,5 @@
 function triggerMenu() {
-    $(".menu")
+    $(".menu").click(function() {
+        
+    })
 }

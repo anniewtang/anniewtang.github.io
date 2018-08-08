@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-a {
+a, .clickable {
     color: #3988e2;
     text-decoration: none;
     border-bottom: 1.4px solid #3988e2;
@@ -116,6 +116,7 @@ h1 {
 .flexbox-container {
     margin-top: 3vh;
     width: 75vw;
+    /* TODO: MAKE THIS WIDTH RESPONSIVE PER SCREEN SIZE */
 
     display: -webkit-box;
     display: -moz-box;
@@ -137,7 +138,7 @@ h1 {
     display: inline-block;
     width: 475px;
     height: 350px;
-    margin-bottom: 2%;
+    margin-bottom: 10px;
     flex: 0 1 auto;
     position: relative;
 }
@@ -310,4 +311,8 @@ h1 {
 
 .lowercase {
     text-transform: lowercase;
+}
+
+.emphasize {
+    font-weight: 600;
 }
