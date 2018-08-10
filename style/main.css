@@ -1,5 +1,17 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+*:focus {
+outline: 0;
+outline: none;
+}
+
 body {
-    /* background-color: #f8f8f9; */
     color: #3e3e3e;
     font-family: 'Open Sans', sans-serif;
     font-size: 83%;
@@ -187,6 +199,10 @@ h1 {
     background-color: #f8f8f9;
     display: flex;
     align-items: center;
+}
+
+#teaching .title {
+    line-height: 1em;
 }
 
 .teaching-content {
