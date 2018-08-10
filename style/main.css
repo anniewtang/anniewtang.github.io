@@ -205,15 +205,20 @@ h1 {
     line-height: 1em;
 }
 
-.teaching-content {
-    line-height: 2em;
+#teaching .right {
+    margin-left: 7%;
+    font-weight: 300;
+    letter-spacing: 0.2pt;
+    /* border: 1px solid black; */
 }
 
-.position {
-    border-left: 1px solid black;
-    padding-left: 3%;
-    width: 50%;
+.teaching-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    /* line-height: 2em; */
 }
+
+
 
 .centered-flexbox {
     margin-top: 0;
@@ -237,10 +242,6 @@ h1 {
     width: fit-content;
     margin-right: 3%;
 
-}
-
-.position {
-    display: inline-block;
 }
 
 #contact {
