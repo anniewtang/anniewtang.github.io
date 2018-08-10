@@ -83,17 +83,12 @@ button:hover {
 
 /* Content styles */
 .md-content {
-	/* color: #fff; */
-	background: white;
-	/* background: #e74c3c; */
 	position: relative;
-	border-radius: 3px;
 	margin: 0 auto;
 }
 
 .md-content h3 {
 	margin: 0;
-	padding: 0.4em;
 	text-align: center;
 	font-size: 2.4em;
 	font-weight: 300;
@@ -103,7 +98,7 @@ button:hover {
 }
 
 .md-content > div {
-	padding: 15px 40px 30px;
+	padding: 0px 30px;
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.15em;
