@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-a, .clickable {
+a, .clickable, .md-trigger {
     color: #3988e2;
     text-decoration: none;
     border-bottom: 1.4px solid #3988e2;
@@ -217,8 +217,6 @@ h1 {
     font-size: 1.5em;
     /* line-height: 2em; */
 }
-
-
 
 .centered-flexbox {
     margin-top: 0;
