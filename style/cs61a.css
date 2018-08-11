@@ -7,7 +7,7 @@
 	max-width:100%;
 }
 body {
-	font-family: "Calibri", sans-serif;
+	/* font-family: "Calibri", sans-serif; */
 	background-color:#ffffff;
 	color:#30415d;
 	width: 100vw!important;
@@ -45,20 +45,19 @@ a:hover {
 
 h1 {
 	color: #e79f6b;
-	font-size: 450%;
-	font-weight: bold;
-	/*border: 3px solid black;*/
+	font-size: 350%;
+	font-weight: 500;
 	margin-bottom: -1.5%;
 }
 
 h2 {
 	color: #5b5858;
-	font-size: 200%;
-	font-weight: bold;
+	font-size: 160%;
+	font-weight: 500;
 }
 
 .content {
-	font-size: 130%;
+	font-size: 120%;
 }
 #header {
 	/*padding-bottom: 1%;*/
