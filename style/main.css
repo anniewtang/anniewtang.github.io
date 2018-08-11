@@ -268,15 +268,7 @@ h1 {
     width: 55vw;
 }
 
-.left {
-    display: inline-block;
-}
-
-.middle {
-    display: inline-block;
-}
-
-.right {
+.left, .middle, .right {
     display: inline-block;
 }
 

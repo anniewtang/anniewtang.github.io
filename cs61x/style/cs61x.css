@@ -1,15 +1,50 @@
 #cs61a > .wrapper {
-
+    margin-top: 19vh;
 }
 
-#cs61a > .left {
+#cs61a .wrapper > .flexbox-container {
+    border: 1px solid blue;
+
+    width: 70vw;
+    -webkit-flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+.row-one, .row-two, .row-three {
+        /* border: 1px solid red; */
+    width: 100%;
+    display: inline-block;
+}
+
+.content .flexbox-container {
+    border: 1px solid green;
+    margin-top: 0;
+    width: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    position: relative;
+}
+
+#cs61a .left {
     border: 1px solid red;
 }
 
-#cs61a > .middle {
+#cs61a .middle {
     border: 1px solid red;
 }
 
-#cs61a > .right {
+#cs61a .right {
     border: 1px solid red;
 }
