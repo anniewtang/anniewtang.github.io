@@ -1,27 +1,28 @@
 #cs61a > .wrapper {
-    margin-top: 19vh;
+    margin-top: 23vh;
 }
 
 #cs61a .wrapper > .flexbox-container {
-    border: 1px solid blue;
-
+    margin-top: 3%;
     width: 70vw;
     -webkit-flex-flow: column wrap;
     align-items: flex-start;
     justify-content: space-between;
 
     position: relative;
-    /* justify-content: space-between; */
 }
 
 .row-one, .row-two, .row-three {
-        /* border: 1px solid red; */
     width: 100%;
     display: inline-block;
+    margin-bottom: 2%;
+}
+
+.row-two {
+    margin-bottom: 5%;
 }
 
 .content .flexbox-container {
-    border: 1px solid green;
     margin-top: 0;
     width: 100%;
 
@@ -38,13 +39,16 @@
 }
 
 #cs61a .left {
-    border: 1px solid red;
+    margin-right: 5%;
+    width: 100px;
+    font-weight: 700;
 }
 
-#cs61a .middle {
-    border: 1px solid red;
+#cs61a .middle, #cs61a .right {
+    margin-right: 3%;
+    width: 300px;
 }
 
-#cs61a .right {
-    border: 1px solid red;
+.emphasize {
+    font-weight: 600;
 }
