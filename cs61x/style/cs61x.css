@@ -1,0 +1,15 @@
+#cs61a > .wrapper {
+
+}
+
+#cs61a > .left {
+    border: 1px solid red;
+}
+
+#cs61a > .middle {
+    border: 1px solid red;
+}
+
+#cs61a > .right {
+    border: 1px solid red;
+}
