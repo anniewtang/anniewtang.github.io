@@ -218,6 +218,16 @@ h1 {
     /* line-height: 2em; */
 }
 
+.md-content .flexbox-container {
+    margin-top: 3%;
+    line-height: 1em;
+}
+
+.md-content .right ul {
+    list-style-type: none;
+    margin-left: -5%;
+}
+
 .centered-flexbox {
     margin-top: 0;
     width: 100%;
