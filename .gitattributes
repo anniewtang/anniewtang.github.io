@@ -1,1 +1,4 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+img/psd/favi.psd filter=lfs diff=lfs merge=lfs -text
+img/psd/previews.psd filter=lfs diff=lfs merge=lfs -text
+img/psd/website-redesign.psd filter=lfs diff=lfs merge=lfs -text
