@@ -201,8 +201,18 @@ h1 {
 
 #teaching {
     background-color: #f8f8f9;
+}
+
+#teaching .center {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
+}
+
+#teaching .flexbox-container {
+    align-items: center;
+    justify-content: flex-start;
 }
 
 #teaching .title {
