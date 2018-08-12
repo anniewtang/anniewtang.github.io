@@ -2,15 +2,12 @@ RewriteEngine On
 
 # Redirect to HTML if it exists.
 # e.g. example.com/foo will display the contents of example.com/foo.html
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L,QSA]
 
-Redirect 301 / http://www.anniewtang.github.io/index.html
-Redirect 301 /cs61a http://www.anniewtang.github.io/cs61x/cs61a.html
-Redirect 301 /cs61a-fa17 http://www.anniewtang.github.io/cs61x/cs61a-fa17.html
-Redirect 301 /cs61b-sp18 http://www.anniewtang.github.io/cs61x/cs61b-sp18.html
-Redirect 301 /teaching http://www.anniewtang.github.io/index.html#teaching
-Redirect 301 /projects http://www.anniewtang.github.io/index.html#projects
-Redirect 301 /resume http://www.anniewtang.github.io/assets/resume.pdf]
+#301 from example.com/page.html to example.com/page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
