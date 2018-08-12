@@ -13,7 +13,7 @@ body {
 }
 
 .horizontal-nav a:hover, .active {
-    text-decoration: line-through;
+
 }
 
 .horizontal-nav .one,

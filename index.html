@@ -19,7 +19,7 @@
     <!-- STYLE -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Karla:200,300,400, 500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/nav.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
@@ -29,6 +29,15 @@
 <body>
     <!-- ABOUT PAGE -->
     <div id="about" class="page">
+        <div class="horizontal-nav">
+            <div class="flexbox-container">
+                <div class="one"><a class="active" href="#about">about</a></div>
+                <div class="two"><a href="#projects">projects</a></div>
+                <div class="three"><a href="#teaching">teaching</a></div>
+                <div class="four"><a href="assets/resume.pdf" target="_blank">resume</a></div>
+                <div class="five"><a href="#contact">contact</a></div>
+            </div>
+        </div>
         <div class="wrapper">
             <h1 class="title">hello, i'm annie —</h1>
             <p class="content">
@@ -41,6 +50,15 @@
 
     <!-- PROJECTS PAGE -->
     <div id="projects" class="page">
+        <div class="horizontal-nav">
+            <div class="flexbox-container">
+                <div class="one"><a href="#about">about</a></div>
+                <div class="two"><a class="active" href="#projects">projects</a></div>
+                <div class="three"><a href="#teaching">teaching</a></div>
+                <div class="four"><a href="assets/resume.pdf" target="_blank">resume</a></div>
+                <div class="five"><a href="#contact">contact</a></div>
+            </div>
+        </div>
         <div class="wrapper">
             <h1 id="projects-title" class="title">projects.</h1>
             <div class="flexbox-container">
@@ -257,11 +275,11 @@
                 </div>
                 <div class="right teaching-content">
                     This semester I am working as a <a href="/cs61a">CS 61A TA</a> and
-                    <br>
+                    <!-- <br> -->
                     a <a href="https://csmberkeley.github.io/#/cs61b">CS 61B Senior Mentor</a>. If you'd like to see my
-                    <br>
+                    <!-- <br> -->
                     previous involvements with these courses, you
-                    <br>
+                    <!-- <br> -->
                     can check out my <button class="md-trigger"  data-modal="teaching-modal">archives</button>!
                 </div>
             </div>
