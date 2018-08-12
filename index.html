@@ -76,27 +76,25 @@
             <h1 id="projects-title" class="title">projects.</h1>
             <div class="flexbox-container">
                 <a href="https://github.com/anniewtang/dishcussion" target="_blank">
+                        <div class="projects-content">
+                            <img class="preview" src="img/projects/preview/DISHCUSSION.png">
+                            <div class="overlay">
+                                <div class="text">
+                                    dishcussion
+                                    <p class="project-type">code + design.</p>
+                                </div>
+                            </div>
+                        </div></a>
+                <a href="" target="_blank">
                     <div class="projects-content">
-                        <img class="preview" src="img/projects/preview/DISHCUSSION.png">
-                        <div class="overlay">
-                            <div class="text">
-                                dishcussion
-                                <p class="project-type">code + design.</p>
+                            <img class="preview" src="img/projects/preview/PERSONAL_WEBSITE.png">
+                            <div class="overlay">
+                                <div class="text">
+                                    personal website
+                                    <p class="project-type">code + design.</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            <a href="" target="_blank">
-                <div class="projects-content">
-                        <img class="preview" src="img/projects/preview/PERSONAL_WEBSITE.png">
-                        <div class="overlay">
-                            <div class="text">
-                                personal website
-                                <p class="project-type">code + design.</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                        </div></a>
                 <a href="https://github.com/anniewtang/file-downloader" target="_blank">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/SCRAPER.png">
@@ -106,8 +104,7 @@
                                 <p class="project-type">code.</p>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </div></a>
                 <a href="https://www.behance.net/gallery/58017245/UIUX-Design-STREAMLINE" target="_blank">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/STREAMLINE.png">
@@ -117,8 +114,7 @@
                                 <p class="project-type">code + design.</p>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </div></a>
                 <a href="https://www.behance.net/gallery/51788643/UIUX-Design-Safety-App" target="_blank">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/BEARWALK.png">
@@ -128,9 +124,8 @@
                                 <p class="project-type">design.</p>
                             </div>
                         </div>
-                    </div>
-                </a>
-                <a href="" target="_blank">
+                    </div></a>
+                <div class="clickable md-trigger" data-modal="bearmaps-modal">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/BEARMAPS.png">
                         <div class="overlay">
@@ -140,8 +135,8 @@
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="" target="_blank">
+                </div>
+                <div class="clickable md-trigger" data-modal="databases-modal">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/DB.png">
                         <div class="overlay">
@@ -151,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a href="https://www.behance.net/anniewtang" target="_blank">
                     <div class="projects-content">
                         <img class="preview" src="img/projects/preview/MISC.png">
@@ -163,9 +158,81 @@
                         </div>
                     </div>
                 </a>
+            </div> <!-- end of flexbox-container -->
+        </div> <!-- end of wrapper -->
+        <!-- PROJECT MODALS -->
+        <div class="md-modal md-effect" id="bearmaps-modal">
+            <div class="md-content">
+                <h3>BearMaps <span class="project-type">&#60;Class Project/&#62;</span></h3>
+                <div>
+                    <div class="centered-flexbox flexbox-container content">
+                        <div class="row-one">
+                            <div class="flexbox-container">
+                                <div class="left">
+                                    Info
+                                </div>
+                                <div class="middle">
+                                    <ul>
+                                        <li class="emphasize">Section 130</li>
+                                        <li>2:30 – 4PM </li>
+                                        <li>Lab:&nbsp;&nbsp;&nbsp;&nbsp;Mon, Soda 271 </li>
+                                        <li>Disc:&nbsp;&nbsp;&nbsp;Wed, Soda 310 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-two">
+                            <div class="flexbox-container">
+                                <div class="left">
+                                    Contact
+                                </div>
+                                <div class="middle">
+                                    <ul>
+                                        <li>OH:&nbsp;&nbsp;&nbsp;Mon, 6:30 – 7:30PM</li>
+                                        <li><a href="mailto:annietang@berkeley.edu">annietang@berkeley.edu</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-three">
+                            <div class="flexbox-container">
+                                <div class="left">
+                                    Resources
+                                </div>
+                                <div class="middle">
+                                    <ul>
+                                        <li class="emphasize">Slides</li>
+                                        <li>Content coming soon!</li>
+                                    </ul>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li class="emphasize">Guides</li>
+                                        <li>Content coming soon!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-four">
+                            
+                        </div>
+                    </div>
+                    <button class="md-close">&#10006;</button>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="md-overlay"></div>
+
+        <div class="md-modal md-effect" id="databases-modal">
+            <div class="md-content">
+                <h3>Databases <span class="project-type">&#60;Class Project/&#62;</span></h3>
+                <div>
+                    <button class="md-close">&#10006;</button>
+                </div>
+            </div>
+        </div>
+        <div class="md-overlay"></div>
+    </div> <!-- end of page -->
 
     <!-- TEACHING PAGE -->
     <div id="teaching" class="page">
@@ -196,12 +263,12 @@
                     <br>
                     previous involvements with these courses, you
                     <br>
-                    can check out my <button class="md-trigger"  data-modal="modal-12">archives</button>!
+                    can check out my <button class="md-trigger"  data-modal="teaching-modal">archives</button>!
                 </div>
             </div>
         </div>
         <!-- TEACHING ARCHIVE MODAL -->
-        <div class="md-modal md-effect" id="modal-12">
+        <div class="md-modal md-effect" id="teaching-modal">
 			<div class="md-content">
 				<h3>Teaching Archive</h3>
 				<div>

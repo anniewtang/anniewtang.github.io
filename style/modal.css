@@ -8,8 +8,8 @@
 }
 
 *:focus {
-outline: 0;
-outline: none;
+    outline: 0;
+    outline: none;
 }
 
 button {
@@ -155,7 +155,6 @@ button:hover {
 	transform: scale(1);
 	opacity: 1;
 }
-
 
 @media screen and (max-width: 32em) {
 	body { font-size: 75%; }
