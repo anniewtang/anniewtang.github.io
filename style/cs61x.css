@@ -1,6 +1,9 @@
 body {
     overflow-y: hidden;
 }
+.horizontal-nav {
+    margin-right: 1.5%;
+}
 
 .horizontal-nav a  {
     border-bottom: none;
@@ -16,7 +19,7 @@ body {
 .horizontal-nav .two,
 .horizontal-nav .three {
     width: fit-content;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 #cs61a .wrapper {
