@@ -159,3 +159,91 @@ button:hover {
 @media screen and (max-width: 32em) {
 	body { font-size: 75%; }
 }
+
+/* Customization for Project Modals */
+.md-content h3 {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+}
+
+.md-content .project-type {
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+.md-content h3 + .flexbox-container {
+    margin-top: 3%;
+    width: 70vw;
+    -webkit-flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+#bearmaps-modal .content,
+#database-modal .content {
+    width: 100%;
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 1.05em;
+    letter-spacing: 0.3pt;
+    line-height: 1.5em;
+}
+.row-one, .row-two,
+.row-three, .row-four {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.content .flexbox-container {
+    margin-top: 0;
+    width: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    position: relative;
+}
+
+.content .right ul {
+    margin-top: -4px;
+    padding-bottom: 0;
+    padding: 0 0 0 40px;
+    list-style-type: square;
+}
+
+.content .left,
+.content .right {
+    font-size: 1em;
+    letter-spacing: 0.3pt;
+    line-height: 1.5em;
+}
+.content .left {
+    margin-right: 5%;
+    width: 100px;
+    font-weight: 600;
+    display: block;
+}
+
+.content .right {
+    margin-right: 3%;
+    width: 450px;
+    display: block;
+}
+
+/* GENERAL STYLING */
+.emphasize {
+    color: black;
+}
+
+.strikethough {
+    text-decoration: line-through;
+}
