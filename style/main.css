@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-a, .check, #teaching .md-trigger {
+a, .active, #teaching .md-trigger {
     color: #3988e2;
     text-decoration: none;
     border-bottom: 1.4px solid #3988e2;

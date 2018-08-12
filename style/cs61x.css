@@ -2,32 +2,8 @@ body {
     overflow-y: hidden;
 }
 
-.horizontal-nav {
-    padding-right: 1%;
-}
-
 .horizontal-nav > .flexbox-container {
-    margin-left: 50%;
-    margin-top: 2%;
-    width: 50%;
-
-    /* border: 1px solid red; */
-
-    -webkit-flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.horizontal-nav li {
-    display: inline;
-    text-align: right;
-}
-
-.horizontal-nav .left,
-.horizontal-nav .right,
-.horizontal-nav .middle {
-    width: fit-content;
-    margin-right: 5%;
+    margin-left: 3%;
 }
 
 .horizontal-nav a  {
@@ -41,10 +17,8 @@ body {
     letter-spacing: 2px;
 }
 
-.horizontal-nav a:hover {
-    color: #3988e2;
+.horizontal-nav a:hover, .active {
     text-decoration: line-through;
-
 }
 
 #cs61a .wrapper {
