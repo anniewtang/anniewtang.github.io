@@ -12,10 +12,6 @@ body {
     letter-spacing: 2px;
 }
 
-.horizontal-nav a:hover, .active {
-
-}
-
 .horizontal-nav .one,
 .horizontal-nav .two,
 .horizontal-nav .three {

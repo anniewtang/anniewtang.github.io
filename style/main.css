@@ -40,7 +40,9 @@ h1 {
 }
 
 
-.horizontal-nav > .flexbox-container {
+#about .horizontal-nav > .flexbox-container,
+#projects .horizontal-nav > .flexbox-container,
+#teaching .horizontal-nav > .flexbox-container {
     padding-top: 2%;
     margin-left: 0%;
     width: 100%;
