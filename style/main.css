@@ -20,10 +20,14 @@ body {
     overflow-x: hidden;
 }
 
-a, .clickable, .md-trigger {
+a, .check, #teaching .md-trigger {
     color: #3988e2;
     text-decoration: none;
     border-bottom: 1.4px solid #3988e2;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 h1 {
