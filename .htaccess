@@ -13,7 +13,7 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 RewriteRule http://www.anniewtang.github.io/index.html / [R=301,L]
-RewriteRule http://www.anniewtang.github.io/cs61x/cs61a.html /cs61a [R=301,L]
+RewriteRule /cs61x/cs61a.html /cs61a [R=301,L]
 RewriteRule http://www.anniewtang.github.io/cs61x/cs61a-fa17.html /cs61a-fa17 [R=301,L]
 RewriteRule http://www.anniewtang.github.io/cs61x/cs61b-sp18.html /cs61b-sp18 [R=301,L]
 RewriteRule http://www.anniewtang.github.io/index.html#teaching /teaching  [R=301,L]
