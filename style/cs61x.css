@@ -2,12 +2,7 @@ body {
     overflow-y: hidden;
 }
 
-.horizontal-nav > .flexbox-container {
-    margin-left: 3%;
-}
-
 .horizontal-nav a  {
-    text-transform: uppercase;
     border-bottom: none;
 
     font-family: 'Karla', sans-serif;
@@ -19,6 +14,13 @@ body {
 
 .horizontal-nav a:hover, .active {
     text-decoration: line-through;
+}
+
+.horizontal-nav .one,
+.horizontal-nav .two,
+.horizontal-nav .three {
+    width: fit-content;
+    margin-right: 5%;
 }
 
 #cs61a .wrapper {

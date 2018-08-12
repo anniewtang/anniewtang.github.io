@@ -4,6 +4,7 @@
 
 .horizontal-nav > .flexbox-container {
     margin-top: 2%;
+    margin-left: 3%;
     width: 100%;
 
     -webkit-flex-flow: row wrap;
@@ -18,9 +19,11 @@
 
 .horizontal-nav .one,
 .horizontal-nav .two,
-.horizontal-nav .three {
+.horizontal-nav .three,
+.horizontal-nav .four,
+.horizontal-nav .five {
     width: fit-content;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .horizontal-nav a  {
@@ -36,4 +39,5 @@
 
 .horizontal-nav a:hover, .horizontal-nav .active {
     color: #3988e2;
+    text-decoration: line-through;
 }
