@@ -216,6 +216,11 @@ a:hover,
     margin-bottom: 3%;
 }
 
+
+#teaching .archive .left {
+    width: 130px;
+}
+
 .teaching-content {
     font-family: "Open Sans", sans-serif;
     font-size: 1.5em;
