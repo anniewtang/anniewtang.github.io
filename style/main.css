@@ -40,6 +40,19 @@ h1 {
 }
 
 
+a, #teaching .md-trigger {
+    color: #3988e2;
+    text-decoration: none;
+    border-bottom: 1.4px solid #3988e2;
+}
+
+a:hover,
+#teaching .md-trigger:hover {
+    color: #77b7dc;
+    transition: .5s ease;
+    border-bottom: 1.4px solid #77b7dc;
+}
+
 #about .horizontal-nav > .flexbox-container,
 #projects .horizontal-nav > .flexbox-container,
 #teaching .horizontal-nav > .flexbox-container {
@@ -322,12 +335,6 @@ h1 {
 
 .emphasize {
     font-weight: 500;
-}
-
-a, #teaching .md-trigger {
-    color: #3988e2;
-    text-decoration: none;
-    border-bottom: 1.4px solid #3988e2;
 }
 
 .clickable {

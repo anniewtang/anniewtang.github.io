@@ -40,4 +40,6 @@
 .horizontal-nav a:hover, .horizontal-nav .active {
     color: #3988e2;
     text-decoration: line-through;
+    border-bottom: none;
+    transition: none;
 }
