@@ -14,7 +14,7 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 RewriteRule ^(.*)\.pdf$ /$1 [R=301,L]
 
 RewriteRule http://www.anniewtang.github.io/index.html / [R=301,L]
-RewriteRule http://www.anniewtang.github.io/cs61b.html /cs61b-sp18 [R=301,L]
+RewriteRule /cs61b-sp18 http://www.anniewtang.github.io/cs61b.html [R=301,L]
 RewriteRule http://www.anniewtang.github.io/cs61x/cs61a-fa17.html /cs61a-fa17 [R=301,L]
 RewriteRule http://www.anniewtang.github.io/cs61x/cs61b-sp18.html /cs61b-sp18 [R=301,L]
 RewriteRule http://www.anniewtang.github.io/index.html#teaching /teaching  [R=301,L]
