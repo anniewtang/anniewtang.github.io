@@ -210,16 +210,23 @@ a:hover,
 }
 
 #teaching .right {
-    width: 440px;
+    width: 450px;
     font-weight: 300;
     letter-spacing: 0.2pt;
     margin-bottom: 3%;
     line-height: 1.5em;
 }
 
-
 #teaching .archive .left {
     width: 130px;
+}
+
+#teaching .archive .right {
+    line-height: 1em;
+}
+
+#teaching .archive {
+    margin-bottom: -3%;
 }
 
 .teaching-content {
