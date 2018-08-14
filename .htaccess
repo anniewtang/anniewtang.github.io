@@ -21,4 +21,4 @@ RewriteRule http://www.anniewtang.github.io/index.html#teaching /teaching  [R=30
 RewriteRule http://www.anniewtang.github.io/index.html#projects /projects  [R=301,L]
 # RewriteRule http://www.anniewtang.github.io/assets/resume.pdf /resume  [R=301,L]
 
-Redirect 301 /assets/resume.pdf http://www.anniewtang.github.io/assets/resume.pdf
+Redirect 301 http://www.anniewtang.github.io/cs61b.html http://www.anniewtang.github.io/cs61b-sp18
