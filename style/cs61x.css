@@ -53,11 +53,17 @@ body {
     margin-bottom: 4%;
 }
 
+.row-three {
+    /* border: 1px solid red; */
+}
+
 .content {
     font-weight: 300;
 }
 
-.content .flexbox-container {
+.row-one > .flexbox-container,
+.row-two > .flexbox-container,
+.row-three > .flexbox-container {
     margin-top: 0;
     width: 100%;
 
@@ -71,6 +77,16 @@ body {
     justify-content: flex-start;
 
     position: relative;
+}
+
+.row-three > .flexbox-container .flexbox-container {
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.row-three .middle {
+    margin-bottom: 3%;
 }
 
 .content .left {
