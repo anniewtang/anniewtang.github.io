@@ -3,7 +3,6 @@
 }
 
 .horizontal-nav > .flexbox-container {
-    margin-top: 2%;
     margin-left: 3%;
     width: 100%;
 
@@ -43,3 +42,9 @@
     border-bottom: none;
     transition: none;
 }
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
