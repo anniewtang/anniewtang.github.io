@@ -3,12 +3,9 @@ body {
 }
 .horizontal-nav {
     margin-right: 1%;
-    /* border: 1px solid red; */
-
 }
 
 .horizontal-nav > .flexbox-container {
-    /* border: 1px solid green; */
     height: 60px;
     align-items: center;
 
